@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, section {
+    height: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../img/morning.jpg');
+    background-position: center;
+    background-size: cover;
+}
+section article {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+section article img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 4px #ccc;
+}
+
+p {
+    font-size: 25px;
+}
